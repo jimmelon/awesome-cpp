@@ -2,75 +2,162 @@
 
 A curated list of awesome C++ frameworks, libraries and software.
 
+## BASIC
+
+* [changkun/modern-cpp-tutorial](https://github.com/changkun/modern-cpp-tutorial) - 📚 C++11/14/17 On the Fly
+* [wuye9036/CppTemplateTutorial](https://github.com/wuye9036/CppTemplateTutorial) - 中文的C++ Template的教学指南。与知名书籍C++ Templates不同，该系列教程将C++ Templates作为一门图灵完备的语言来讲授，以求帮助读者对Meta-Programming融会贯通。(正在施工中)
+
+### Algorithms
+* [gzc/CLRS](https://github.com/gzc/CLRS) - :notebook:Solutions to Introduction to Algorithms
+* [mandliya/algorithms_and_data_structures](https://github.com/mandliya/algorithms_and_data_structures) - 180+ Algorithm & Data Structure Problems using C++
+* [xtaci/algorithms](https://github.com/xtaci/algorithms) - Algorithms & Data structures in C++.
+
+## signal data processing
+
+* [bbcrd/audiowaveform](https://github.com/bbcrd/audiowaveform) - C++ program to generate waveform data and render waveform images from audio files
+* [bbc/audiowaveform](https://github.com/bbc/audiowaveform) - C++ program to generate waveform data and render waveform images from audio files
+
+## cross-platform
+
+## networking
+* [zaphoyd/websocketpp](https://github.com/zaphoyd/websocketpp) - C++ websocket client/server library
+
+## text 
+
+### parsor 
+* [google/re2](https://github.com/google/re2) - RE2 is a fast, safe, thread-friendly alternative to backtracking regular expression engines like those used in PCRE, Perl, and Python. It is a C++ library.
+* [dropbox/json11](https://github.com/dropbox/json11) - A tiny JSON library for C++11.
+* [bblanchon/ArduinoJson](https://github.com/bblanchon/ArduinoJson) - 📟 C++ JSON library for IoT. Simple and efficient.
+* [nlohmann/json](https://github.com/nlohmann/json) - JSON for Modern C++
+* [open-source-parsers/jsoncpp](https://github.com/open-source-parsers/jsoncpp) - A C++ library for interacting with JSON.
+* [Tencent/rapidjson](https://github.com/Tencent/rapidjson) - A fast JSON parser/generator for C++ with both SAX/DOM style API
+* [fishedee/FishJsonCpp](https://github.com/fishedee/FishJsonCpp) - C++结构体自动化相互转换json
+
+### chinese
+* [BYVoid/OpenCC](https://github.com/BYVoid/OpenCC) - A project for conversion between Traditional and Simplified Chinese
+
+### logging
+* [google/glog](https://github.com/google/glog) - C++ implementation of the Google logging module
+* [gabime/spdlog](https://github.com/gabime/spdlog) - Fast C++ logging library.
+
+## machine learning
+
+* [davisking/dlib](https://github.com/davisking/dlib) - A toolkit for making real world machine learning and data analysis applications in C++
 * [BVLC/caffe](https://github.com/BVLC/caffe) - Caffe: a fast open framework for deep learning.
+* [Microsoft/CNTK](https://github.com/Microsoft/CNTK) - Microsoft Cognitive Toolkit (CNTK), an open source deep-learning toolkit
+* [caffe2/caffe2](https://github.com/caffe2/caffe2) - Caffe2 is a lightweight, modular, and scalable deep learning framework.
+* [tiny-dnn/tiny-dnn](https://github.com/tiny-dnn/tiny-dnn) - header only, dependency-free deep learning framework in C++14
+
+## big data
+* [yandex/ClickHouse](https://github.com/yandex/ClickHouse) - ClickHouse is a free analytic DBMS for big data.
+
+## cryptocurrency blockchain
+* [ripple/rippled](https://github.com/ripple/rippled) - Decentralized cryptocurrency blockchain daemon implementing the XRP Ledger in C++
+* [ethereum/aleth](https://github.com/ethereum/aleth) - Aleth – Ethereum C++ client, tools and libraries
+
+## framwork
+
+### game framwork
+* [cuberite/cuberite](https://github.com/cuberite/cuberite) - A lightweight, fast and extensible game server for Minecraft
+* [cocos2d/cocos2d-x](https://github.com/cocos2d/cocos2d-x) - Cocos2d-x is a suite of open-source, cross-platform, game-development tools used by millions of developers all over the world.
+* [CRYTEK/CRYENGINE](https://github.com/CRYTEK/CRYENGINE) - CRYENGINE is a powerful real-time game development platform created by Crytek.
+* [360Controller/360Controller](https://github.com/360Controller/360Controller) - TattieBogle Xbox 360 Driver (with improvements)
+* [hrydgard/ppsspp](https://github.com/hrydgard/ppsspp) - A PSP emulator for Android, Windows, Mac and Linux, written in C++. Want to contribute? Join us on Discord at https://discord.gg/5NJB6dD or in #ppsspp on freenode (IRC) or just send pull requests / issues. For discussion use the forums on ppsspp.org.
+* [gameplay3d/GamePlay](https://github.com/gameplay3d/GamePlay) - Open-source, cross-platform, C++ game engine for creating 2D/3D games.
+* [OpenRCT2/OpenRCT2](https://github.com/OpenRCT2/OpenRCT2) - An open source re-implementation of RollerCoaster Tycoon 2 🎢
+* [BearishSun/BansheeEngine](https://github.com/BearishSun/BansheeEngine) - Modern C++14 game engine with Vulkan support, fully featured editor and C# scripting
+
+## big name
+* [facebook/folly](https://github.com/facebook/folly) - An open-source C++ library developed and used at Facebook.
+* [googlei18n/libphonenumber](https://github.com/googlei18n/libphonenumber) - Google's common Java, C++ and JavaScript library for parsing, formatting, and validating international phone numbers.
+* [facebook/proxygen](https://github.com/facebook/proxygen) - A collection of C++ HTTP libraries including an easy to use HTTP server.
+* [google/flatbuffers](https://github.com/google/flatbuffers) - Memory Efficient Serialization Library
+* [googlecartographer/cartographer](https://github.com/googlecartographer/cartographer) - Cartographer is a system that provides real-time simultaneous localization and mapping (SLAM) in 2D and 3D across multiple platforms and sensor configurations.
+* [spotify/annoy](https://github.com/spotify/annoy) - Approximate Nearest Neighbors in C++/Python optimized for memory usage and loading/saving to disk
+* [Microsoft/cpprestsdk](https://github.com/Microsoft/cpprestsdk) - The C++ REST SDK is a Microsoft project for cloud-based client-server communication in native code using a modern asynchronous C++ API design. This project aims to help C++ developers connect to and interact with services.
+* [facebook/conceal](https://github.com/facebook/conceal) - Conceal provides easy Android APIs for performing fast encryption and authentication of data.
+* [llvm-mirror/clang](https://github.com/llvm-mirror/clang) - Mirror of official clang git repository located at 
+* [yorikvanhavre/FreeCAD](https://github.com/yorikvanhavre/FreeCAD) - A place for my FreeCAD experiments... The master branch is a -more or less (manually) - updated copy of the official FreeCAD git repo. Be sure to visit the official site for forum, bug tracker ,doc, etc... If you wish to fork, danielfalk has an automatically updated FreeCAD repo that might be more up to date, or clone directly from http://github.com/FreeCAD/FreeCAD_sf_master
+
+### open source
+* [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) - This is the official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler
+
+## keyboard & mouse
+* [symless/synergy-core](https://github.com/symless/synergy-core) - Open source core of Synergy, the keyboard and mouse sharing tool
+
+## threading
+* [chenshuo/muduo](https://github.com/chenshuo/muduo) - A C++ non-blocking network library for multi-threaded server in Linux
+* [cameron314/concurrentqueue](https://github.com/cameron314/concurrentqueue) - A fast multi-producer, multi-consumer lock-free concurrent queue for C++11
+
+## MISC
+
+### health
+* [GoldenCheetah/GoldenCheetah](https://github.com/GoldenCheetah/GoldenCheetah) - Performance Software for Cyclists, Runners and Triathletes
+
+### android
+* [tguillem/android-libav](https://github.com/tguillem/android-libav) - libav build on ### android (used for android-ampd)
+
 * [grpc/grpc](https://github.com/grpc/grpc) - The C based gRPC (C++, Python, Ruby, Objective-C, PHP, C#)
 * [cmderdev/cmder](https://github.com/cmderdev/cmder) - Lovely console emulator package for Windows
-* [Microsoft/CNTK](https://github.com/Microsoft/CNTK) - Microsoft Cognitive Toolkit (CNTK), an open source deep-learning toolkit
 * [dmlc/xgboost](https://github.com/dmlc/xgboost) - Scalable, Portable and Distributed Gradient Boosting (GBDT, GBRT or GBM) Library,  for Python, R, Java, Scala, C++ and more. Runs on single machine, Hadoop, Spark, Flink and DataFlow
-* [cocos2d/cocos2d-x](https://github.com/cocos2d/cocos2d-x) - Cocos2d-x is a suite of open-source, cross-platform, game-development tools used by millions of developers all over the world.
+
 * [ocornut/imgui](https://github.com/ocornut/imgui) - Dear ImGui: Bloat-free Immediate Mode Graphical User interface for C++ with minimal dependencies
-* [facebook/folly](https://github.com/facebook/folly) - An open-source C++ library developed and used at Facebook.
-* [nlohmann/json](https://github.com/nlohmann/json) - JSON for Modern C++
-* [google/flatbuffers](https://github.com/google/flatbuffers) - Memory Efficient Serialization Library
-* [caffe2/caffe2](https://github.com/caffe2/caffe2) - Caffe2 is a lightweight, modular, and scalable deep learning framework.
-* [CRYTEK/CRYENGINE](https://github.com/CRYTEK/CRYENGINE) - CRYENGINE is a powerful real-time game development platform created by Crytek.
-* [googlei18n/libphonenumber](https://github.com/googlei18n/libphonenumber) - Google's common Java, C++ and JavaScript library for parsing, formatting, and validating international phone numbers.
+
+
+
+
 * [catchorg/Catch2](https://github.com/catchorg/Catch2) - A modern, C++-native, header-only, test framework for unit-tests, TDD and BDD - using C++11, C++14, C++17 and later (or C++03 on the Catch1.x branch)
-* [Tencent/rapidjson](https://github.com/Tencent/rapidjson) - A fast JSON parser/generator for C++ with both SAX/DOM style API
+
 * [envoyproxy/envoy](https://github.com/envoyproxy/envoy) - C++ front/service proxy
 * [openframeworks/openFrameworks](https://github.com/openframeworks/openFrameworks) - openFrameworks is a community-developed cross platform toolkit for creative coding in C++.
-* [symless/synergy-core](https://github.com/symless/synergy-core) - Open source core of Synergy, the keyboard and mouse sharing tool
-* [OpenRCT2/OpenRCT2](https://github.com/OpenRCT2/OpenRCT2) - An open source re-implementation of RollerCoaster Tycoon 2 🎢
+
 * [capnproto/capnproto](https://github.com/capnproto/capnproto) - Cap'n Proto serialization/RPC system - core tools and C++ library
-* [facebook/proxygen](https://github.com/facebook/proxygen) - A collection of C++ HTTP libraries including an easy to use HTTP server.
-* [davisking/dlib](https://github.com/davisking/dlib) - A toolkit for making real world machine learning and data analysis applications in C++
+
 * [Automattic/node-canvas](https://github.com/Automattic/node-canvas) - Node canvas is a Cairo backed Canvas implementation for NodeJS.
 * [Maximus5/ConEmu](https://github.com/Maximus5/ConEmu) - Customizable Windows terminal with tabs, splits, quake-style, hotkeys and more
 * [ceph/ceph](https://github.com/ceph/ceph) - Ceph is a distributed object, block, and file storage platform
-* [chenshuo/muduo](https://github.com/chenshuo/muduo) - A C++ non-blocking network library for multi-threaded server in Linux
+
 * [TrinityCore/TrinityCore](https://github.com/TrinityCore/TrinityCore) - TrinityCore Open Source MMO Framework (master = 7.3.5.26972, 3.3.5 = 3.3.5a.12340)
-* [yandex/ClickHouse](https://github.com/yandex/ClickHouse) - ClickHouse is a free analytic DBMS for big data.
+
 * [zeromq/libzmq](https://github.com/zeromq/libzmq) - ZeroMQ core engine in C++, implements ZMTP/3.1
-* [360Controller/360Controller](https://github.com/360Controller/360Controller) - TattieBogle Xbox 360 Driver (with improvements)
 * [ipkn/crow](https://github.com/ipkn/crow) - Crow is very fast and easy to use C++ micro web framework (inspired by Python Flask)
 * [abseil/abseil-cpp](https://github.com/abseil/abseil-cpp) - Abseil Common Libraries (C++)
-* [tiny-dnn/tiny-dnn](https://github.com/tiny-dnn/tiny-dnn) - header only, dependency-free deep learning framework in C++14
-* [gzc/CLRS](https://github.com/gzc/CLRS) - :notebook:Solutions to Introduction to Algorithms
-* [gabime/spdlog](https://github.com/gabime/spdlog) - Fast C++ logging library.
-* [spotify/annoy](https://github.com/spotify/annoy) - Approximate Nearest Neighbors in C++/Python optimized for memory usage and loading/saving to disk
+
+
+
+
 * [pybind/pybind11](https://github.com/pybind/pybind11) - Seamless operability between C++11 and Python
 * [sass/libsass](https://github.com/sass/libsass) - A C/C++ implementation of a Sass compiler
-* [hrydgard/ppsspp](https://github.com/hrydgard/ppsspp) - A PSP emulator for Android, Windows, Mac and Linux, written in C++. Want to contribute? Join us on Discord at https://discord.gg/5NJB6dD or in #ppsspp on freenode (IRC) or just send pull requests / issues. For discussion use the forums on ppsspp.org.
-* [googlecartographer/cartographer](https://github.com/googlecartographer/cartographer) - Cartographer is a system that provides real-time simultaneous localization and mapping (SLAM) in 2D and 3D across multiple platforms and sensor configurations.
-* [ethereum/aleth](https://github.com/ethereum/aleth) - Aleth – Ethereum C++ client, tools and libraries
+
+
+
 * [Mooophy/Cpp-Primer](https://github.com/Mooophy/Cpp-Primer) - C++ Primer 5 answers
 * [AGWA/git-crypt](https://github.com/AGWA/git-crypt) - Transparent file encryption in git
 * [opencv/opencv_contrib](https://github.com/opencv/opencv_contrib) - Repository for OpenCV's extra modules
 * [catboost/catboost](https://github.com/catboost/catboost) - CatBoost is an open-source gradient boosting on decision trees library with categorical features support out of the box for Python, R
 * [radareorg/cutter](https://github.com/radareorg/cutter) - A Qt and C++ GUI for radare2 reverse engineering framework
-* [open-source-parsers/jsoncpp](https://github.com/open-source-parsers/jsoncpp) - A C++ library for interacting with JSON.
-* [bblanchon/ArduinoJson](https://github.com/bblanchon/ArduinoJson) - 📟 C++ JSON library for IoT. Simple and efficient.
-* [Microsoft/cpprestsdk](https://github.com/Microsoft/cpprestsdk) - The C++ REST SDK is a Microsoft project for cloud-based client-server communication in native code using a modern asynchronous C++ API design. This project aims to help C++ developers connect to and interact with services.
-* [BYVoid/OpenCC](https://github.com/BYVoid/OpenCC) - A project for conversion between Traditional and Simplified Chinese
-* [cameron314/concurrentqueue](https://github.com/cameron314/concurrentqueue) - A fast multi-producer, multi-consumer lock-free concurrent queue for C++11
-* [ripple/rippled](https://github.com/ripple/rippled) - Decentralized cryptocurrency blockchain daemon implementing the XRP Ledger in C++
-* [changkun/modern-cpp-tutorial](https://github.com/changkun/modern-cpp-tutorial) - 📚 C++11/14/17 On the Fly
-* [google/re2](https://github.com/google/re2) - RE2 is a fast, safe, thread-friendly alternative to backtracking regular expression engines like those used in PCRE, Perl, and Python. It is a C++ library.
-* [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) - This is the official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler
-* [facebook/conceal](https://github.com/facebook/conceal) - Conceal provides easy Android APIs for performing fast encryption and authentication of data.
+
+
+
+
+
+
+
+
+
 * [oclint/oclint](https://github.com/oclint/oclint) - A static source code analysis tool to improve quality and reduce defects for C, C++ and Objective-C
 * [koekeishiya/chunkwm](https://github.com/koekeishiya/chunkwm) - Tiling window manager for macOS based on plugin architecture
 * [Project-OSRM/osrm-backend](https://github.com/Project-OSRM/osrm-backend) - Open Source Routing Machine - C++ backend
-* [zaphoyd/websocketpp](https://github.com/zaphoyd/websocketpp) - C++ websocket client/server library
+
 * [nghttp2/nghttp2](https://github.com/nghttp2/nghttp2) - nghttp2 - HTTP/2 C Library and tools
-* [gameplay3d/GamePlay](https://github.com/gameplay3d/GamePlay) - Open-source, cross-platform, C++ game engine for creating 2D/3D games.
-* [BearishSun/BansheeEngine](https://github.com/BearishSun/BansheeEngine) - Modern C++14 game engine with Vulkan support, fully featured editor and C# scripting
-* [xtaci/algorithms](https://github.com/xtaci/algorithms) - Algorithms & Data structures in C++.
+
+
+
 * [apache/arrow](https://github.com/apache/arrow) - Apache Arrow is a cross-language development platform for in-memory data. It specifies a standardized language-independent columnar memory format for flat and hierarchical data, organized for efficient analytic operations on modern hardware. It also provides computational libraries and zero-copy streaming messaging and interprocess communication. Languages currently supported include C, C++, Java, JavaScript, Python, and Ruby.
 * [haseebr/competitive-programming](https://github.com/haseebr/competitive-programming) - my foray into the world of competitive programming
-* [cuberite/cuberite](https://github.com/cuberite/cuberite) - A lightweight, fast and extensible game server for Minecraft
-* [google/glog](https://github.com/google/glog) - C++ implementation of the Google logging module
-* [mandliya/algorithms_and_data_structures](https://github.com/mandliya/algorithms_and_data_structures) - 180+ Algorithm & Data Structure Problems using C++
+
+
+
 * [emcrisostomo/fswatch](https://github.com/emcrisostomo/fswatch) - A cross-platform file change monitor with multiple backends: Apple OS X File System Events, *BSD kqueue, Solaris/Illumos File Events Notification, Linux inotify, Microsoft Windows and a stat()-based backend.
 * [swig/swig](https://github.com/swig/swig) - SWIG is a software development tool that connects programs written in C and C++ with a variety of high-level programming languages.
 * [brndnmtthws/conky](https://github.com/brndnmtthws/conky) - Light-weight system monitor for X.
@@ -84,8 +171,8 @@ A curated list of awesome C++ frameworks, libraries and software.
 * [CleverRaven/Cataclysm-DDA](https://github.com/CleverRaven/Cataclysm-DDA) - Cataclysm - Dark Days Ahead. A turn-based survival game set in a post-apocalyptic world.
 * [AtomicGameEngine/AtomicGameEngine](https://github.com/AtomicGameEngine/AtomicGameEngine) - The Atomic Game Engine is a multi-platform 2D and 3D engine with a consistent API in C++, C#, JavaScript, and TypeScript
 * [crosswalk-project/crosswalk](https://github.com/crosswalk-project/crosswalk) - A web runtime built on Chrome. This project is currently unmaintained.
-* [llvm-mirror/clang](https://github.com/llvm-mirror/clang) - Mirror of official clang git repository located at http://llvm.org/git/clang.  Updated every five minutes.
-* [wuye9036/CppTemplateTutorial](https://github.com/wuye9036/CppTemplateTutorial) - 中文的C++ Template的教学指南。与知名书籍C++ Templates不同，该系列教程将C++ Templates作为一门图灵完备的语言来讲授，以求帮助读者对Meta-Programming融会贯通。(正在施工中)
+http://llvm.org/git/clang.  Updated every five minutes.
+
 * [forhappy/Cplusplus-Concurrency-In-Practice](https://github.com/forhappy/Cplusplus-Concurrency-In-Practice) - A Detailed Cplusplus Concurrency Tutorial 《C++ 并发编程指南》
 * [Tencent/phxpaxos](https://github.com/Tencent/phxpaxos) - C++ Paxos library that has been used in Wechat production environment.
 * [thrust/thrust](https://github.com/thrust/thrust) - Thrust is a parallel algorithms library which resembles the C++ Standard Template Library (STL).
@@ -103,7 +190,7 @@ A curated list of awesome C++ frameworks, libraries and software.
 * [jolibrain/deepdetect](https://github.com/jolibrain/deepdetect) - Deep Learning API and Server in C++11 with Python bindings and support for Caffe, Tensorflow, XGBoost and TSNE
 * [USCiLab/cereal](https://github.com/USCiLab/cereal) - A C++11 library for serialization
 * [cquery-project/cquery](https://github.com/cquery-project/cquery) - C/C++ language server supporting multi-million line code base, powered by libclang. Emacs, Vim, VSCode, and others with language server protocol support. Cross references, completion, diagnostics, semantic highlighting and more
-* [dropbox/json11](https://github.com/dropbox/json11) - A tiny JSON library for C++11.
+
 * [actor-framework/actor-framework](https://github.com/actor-framework/actor-framework) - An Open Source Implementation of the Actor Model in C++
 * [progschj/ThreadPool](https://github.com/progschj/ThreadPool) - A simple C++11 Thread Pool implementation
 * [mapd/mapd-core](https://github.com/mapd/mapd-core) - The MapD Core database
@@ -309,7 +396,7 @@ A curated list of awesome C++ frameworks, libraries and software.
 * [giuspen/cherrytree](https://github.com/giuspen/cherrytree) - cherrytree
 * [otland/forgottenserver](https://github.com/otland/forgottenserver) - A free and open-source MMORPG server emulator written in C++
 * [CloudCompare/CloudCompare](https://github.com/CloudCompare/CloudCompare) - CloudCompare main repository
-* [GoldenCheetah/GoldenCheetah](https://github.com/GoldenCheetah/GoldenCheetah) - Performance Software for Cyclists, Runners and Triathletes
+
 * [clMathLibraries/clBLAS](https://github.com/clMathLibraries/clBLAS) - a software library containing BLAS functions written in OpenCL
 * [turanszkij/WickedEngine](https://github.com/turanszkij/WickedEngine) - C++ game engine focusing on modern rendering techniques. With Bullet Physics, Lua scripting, and more.
 * [hughperkins/tf-coriander](https://github.com/hughperkins/tf-coriander) - OpenCL 1.2 implementation for Tensorflow
@@ -353,7 +440,7 @@ A curated list of awesome C++ frameworks, libraries and software.
 * [twitter/vireo](https://github.com/twitter/vireo) - Vireo is a lightweight and versatile video processing library written in C++11
 * [cpputest/cpputest](https://github.com/cpputest/cpputest) - CppUTest unit testing and mocking framework for C/C++
 * [tbfleming/cib](https://github.com/tbfleming/cib) - clang running in browser (wasm)
-* [bbc/audiowaveform](https://github.com/bbc/audiowaveform) - C++ program to generate waveform data and render waveform images from audio files
+
 * [shurcooL-legacy/Conception](https://github.com/shurcooL-legacy/Conception) - Conception was an experimental project, looking for ways to make software development more efficient.
 * [stevemk14ebr/PolyHook](https://github.com/stevemk14ebr/PolyHook) - x86/x64 C++ Hooking Library
 * [loarabia/Clang-tutorial](https://github.com/loarabia/Clang-tutorial) - A collection of code samples showing usage of clang and llvm as a library
@@ -1426,7 +1513,7 @@ A curated list of awesome C++ frameworks, libraries and software.
 * [clab/cnn](https://github.com/clab/cnn) - C++ neural network library
 * [indutny/llnode](https://github.com/indutny/llnode) - Node.js C++ lldb plugin
 * [pytries/marisa-trie](https://github.com/pytries/marisa-trie) - Static memory-efficient Trie-like structures for Python (2.x and 3.x). Uses marisa-trie C++ library.
-* [bbcrd/audiowaveform](https://github.com/bbcrd/audiowaveform) - C++ program to generate waveform data and render waveform images from audio files
+
 * [rmartinho/nonius](https://github.com/rmartinho/nonius) - A C++ micro-benchmarking framework
 * [Yalantis/uCrop](https://github.com/Yalantis/uCrop) - Image Cropping Library for Android
 * [nyanp/tiny-cnn](https://github.com/nyanp/tiny-cnn) - header only, dependency-free deep learning framework in C++11
@@ -2212,7 +2299,7 @@ A curated list of awesome C++ frameworks, libraries and software.
 * [vol4ok/libsplice](https://github.com/vol4ok/libsplice) - Library for kernel and user mode splicing for Windows (x86 and x64).
 * [tonyrog/libusb](https://github.com/tonyrog/libusb) - Erlang libusb binding
 * [threatstack/libmagic](https://github.com/threatstack/libmagic) - libmagic 5.18 mirror
-* [tguillem/android-libav](https://github.com/tguillem/android-libav) - libav build on android (used for android-ampd)
+
 * [shevek/libspf2](https://github.com/shevek/libspf2) - Implementation of the Sender Policy Framework for SMTP authorization
 * [rdfa/librdfa](https://github.com/rdfa/librdfa) - SAX-based implementation of an RDFa Processor in C
 * [pmundkur/libcrm114](https://github.com/pmundkur/libcrm114) - C library version of CRM114, and a Python binding
@@ -2815,7 +2902,7 @@ A curated list of awesome C++ frameworks, libraries and software.
 * [fusijie/Cpp_Lua_VS2012](https://github.com/fusijie/Cpp_Lua_VS2012) - VS2012实现C++和Lua交互
 * [from-nibly/cpplist](https://github.com/from-nibly/cpplist) - A linq like list in c++
 * [fresheneesz/cppUtils](https://github.com/fresheneesz/cppUtils) - C and C++ utility modules
-* [fishedee/FishJsonCpp](https://github.com/fishedee/FishJsonCpp) - C++结构体自动化相互转换json
+
 * [fingerballet/CppTest](https://github.com/fingerballet/CppTest) - Cpp project used for test my first github repo!
 * [figield/CPP](https://github.com/figield/CPP) - C and C++ samples
 * [felixjones/xiCppLib](https://github.com/felixjones/xiCppLib) - Smart pointer and OS header file
@@ -3040,7 +3127,7 @@ A curated list of awesome C++ frameworks, libraries and software.
 * [brianwatling/redispp](https://github.com/brianwatling/redispp) - C++ client for Redis
 * [arturadib/slash-a](https://github.com/arturadib/slash-a) - Programming language and C++ library for (linear) genetic programming
 * [Leont/libperl--](https://github.com/Leont/libperl--) - LibPerl++ is a C++ library that provides a more friendly interface for the the perl API. It makes use of advanced features of C++ to make both embedding and extending perl as easy as possible. This repository also contains to helper libraries that may be split out at a later stage: libtap++ and Library::Build.
-* [yorikvanhavre/FreeCAD](https://github.com/yorikvanhavre/FreeCAD) - A place for my FreeCAD experiments... The master branch is a -more or less (manually) - updated copy of the official FreeCAD git repo. Be sure to visit the official site for forum, bug tracker ,doc, etc... If you wish to fork, danielfalk has an automatically updated FreeCAD repo that might be more up to date, or clone directly from http://github.com/FreeCAD/FreeCAD_sf_master
+
 * [pyrtsa/poly](https://github.com/pyrtsa/poly) - Solving the Expression Problem in C++11
 * [patriciogonzalezvivo/ofxComposer](https://github.com/patriciogonzalezvivo/ofxComposer) - Set of connecting boxes that let you load and processes different type of data on the GPU by using shaders.
 * [okeuday/GEPD](https://github.com/okeuday/GEPD) - Generic Erlang Port [Driver]: Automatically generate an Erlang port driver or Erlang port for C/C++ bindings using a single self-contained file, and easily switch between either.
