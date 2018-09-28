@@ -6,6 +6,7 @@ A curated list of awesome C++ frameworks, libraries and software.
 
 * [changkun/modern-cpp-tutorial](https://github.com/changkun/modern-cpp-tutorial) - 📚 C++11/14/17 On the Fly
 * [wuye9036/CppTemplateTutorial](https://github.com/wuye9036/CppTemplateTutorial) - 中文的C++ Template的教学指南。与知名书籍C++ Templates不同，该系列教程将C++ Templates作为一门图灵完备的语言来讲授，以求帮助读者对Meta-Programming融会贯通。(正在施工中)
+* [gansidui/cpp-example](https://github.com/gansidui/cpp-example) - c/c++ example
 
 ### Algorithms
 * [gzc/CLRS](https://github.com/gzc/CLRS) - :notebook:Solutions to Introduction to Algorithms
@@ -2898,7 +2899,7 @@ http://llvm.org/git/clang.  Updated every five minutes.
 * [gitpan/Text-CPP](https://github.com/gitpan/Text-CPP) - Read-only release history for Text-CPP
 * [ghostincircuit/clcpp](https://github.com/ghostincircuit/clcpp) - cpp wrapper for opencl
 * [gctronic/elisa3_node_cpp](https://github.com/gctronic/elisa3_node_cpp) - Elisa-3 ROS node based on roscpp.
-* [gansidui/cpp-example](https://github.com/gansidui/cpp-example) - c/c++ example
+
 * [fusijie/Cpp_Lua_VS2012](https://github.com/fusijie/Cpp_Lua_VS2012) - VS2012实现C++和Lua交互
 * [from-nibly/cpplist](https://github.com/from-nibly/cpplist) - A linq like list in c++
 * [fresheneesz/cppUtils](https://github.com/fresheneesz/cppUtils) - C and C++ utility modules
